@@ -1,0 +1,6 @@
+alias ls='ls -l -a -F -G'
+alias ..='cd ..'
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias mkdir='mkdir -pv'
