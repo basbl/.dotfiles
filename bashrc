@@ -7,7 +7,8 @@ bind -f ~/.dotfiles/inputrc
 
 source ~/.dotfiles/aliases
 
-source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-completion.bash
-source /Applications/Xcode.app/Contents/Developer/usr/share/git-core/git-prompt.sh
+source ~/.dotfiles/git-core/git-completion.bash
+source ~/.dotfiles/git-core/git-prompt.sh
+
 GIT_PS1_SHOWDIRTYSTATE=true
 export PS1='\u@\h:\w$(__git_ps1)$ '
