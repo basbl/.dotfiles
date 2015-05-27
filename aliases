@@ -1,5 +1,7 @@
 alias ls='ls -l -a -F -G'
 alias ..='cd ..'
+alias ...='cd ../..'
+alias h='cd ~'
 alias c='/usr/bin/clear'
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
